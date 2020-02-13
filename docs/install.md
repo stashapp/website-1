@@ -14,7 +14,7 @@ The steps are as follows:
 * Step Four: `docker-compose up -d`
 * Step Five: `docker-compose ps`
 
-You should at this point have a working instance to play with at `http://localhost:5000/` within moments.
+You should at this point have a working instance to play with at `http://localhost:900/` within moments.
 
 ### Console playback of Local Development installation
 <!-- TODO: Make sure to include asciinema embedable from https://github.com/lbryio/lbry-docker/tree/master/contrib/k8s-lbry/kick-ascii that includes an asciinema recording of the deployment of a local dev env. -->
