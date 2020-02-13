@@ -1,5 +1,4 @@
 ---
-title: About OhMyForm
-description: OhMyForm is a free, opensource form builder similar to Google Forms or TypeForm.
+title: About StashApp
+description: StashApp is a free, opensource porn Stash curation and streaming tool.
 ---
-
