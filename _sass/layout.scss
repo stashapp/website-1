@@ -6,22 +6,41 @@
 
 .text-container {
 	max-width: 750px;
+	margin-bottom: 20px;
 }
 
 .container {
-	max-width: 1140px;
+	max-width: 100%;
+	//background-color: $brand-color;
 
 	&.max-container {
 		max-width: 100%;
 		padding: 0;
 	}
+
+	@media #{$sm} {
+		max-width: 540px;
+	}
+	
+	@media #{$md} {
+		max-width: 720px;
+	}
+
+	@media #{$lg} {
+		max-width: 960px;
+	}
+
+	@media #{$xl} {
+		max-width: 1140px;
+	}
 }
 
+
+
 header {
-	color: #fff;
+	color: #f5f8fa;
 	padding: 20px 0;
-	background: $brand-color; /* Old browsers */
-	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%) no-repeat $brand-color;
+	background: $brand-color;
 
 	a {
 		color: #fff;
@@ -36,9 +55,14 @@ header {
 
 	.company-name {
 		font-size: 1.7em;
-		line-height: 33px;
+		line-height: 25px;
 
 		a {
+			display: inline-block;
+		}
+
+		img.logo {
+			height: 25px;
 			display: inline-block;
 		}
 
@@ -50,9 +74,10 @@ header {
 }
 
 .content {
-	background: #fff;
 	padding: 1px 0 0 0;
 	position: relative;
+	background-color: #394b59;
+	width: 100%;
 }
 
 .screenshot{
@@ -63,18 +88,19 @@ header {
 	border-radius: 2px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 20px;
 	background: #DDD url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2244%22%20height%3D%2212%22%20viewBox%3D%220%200%2044%2012%22%3E%3Ccircle%20cx%3D%226%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3Ccircle%20cx%3D%2222%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3C%2Fsvg%3E') 4px 4px no-repeat;
 	padding: 20px 0 0 0;
 	position: relative;
 }
 
 section {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
-section + section {
-	padding-top: 0;
-}
+// section + section {
+// 	padding-top: 0;
+// }
 
 .subtext {
 	margin-top: 10px;
@@ -170,5 +196,4 @@ blockquote:before {
 			color: #333;
 		}
 	}
-
 }

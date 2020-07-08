@@ -1,11 +1,11 @@
-- links:
-  - name: About
-    link: /about/
-  - name: Contact
-    link: /contact/
-- links:
-  - name: Docs
-    link: /docs/
-  - name: Github
-    link: https://github.com/stashapp
-    new_window: true
+# - links:
+#   - name: About
+#     link: /about/
+#   - name: Contact
+#     link: /contact/
+# - links:
+#   - name: Docs
+#     link: /docs/
+#   - name: Github
+#     link: https://github.com/stashapp
+#     new_window: true

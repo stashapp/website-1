@@ -23,7 +23,12 @@
 	<body>
 		<header>
 			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/">StashApp</a></div>
+				<div class="company-name">
+					<a href="{{ site.baseurl }}/">
+						<img src="/images/stash.svg" class="logo" />
+						Stash
+					</a>
+				</div>
 				{% include navigation.html %}
 			</div>
 		</header>
@@ -44,7 +49,7 @@
 					</ul>
 					{% endfor %}
 				</div>
-				<p class="copyright">&copy; {{ site.time | date: '%Y' }} StashApp</p>
+				<p class="copyright">SVG icons courtesy of <a href="https://fontawesome.com/">FontAwesome</a> (<a href="https://fontawesome.com/license">license</a>)</p>
 			</div>
 		</footer>
 		<script>

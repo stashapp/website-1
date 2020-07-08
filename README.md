@@ -2,9 +2,21 @@
 
 # Steps to contribute.
 
+```
 bundle install
 
 bundle exec jekyll serve
+```
+
+Note: On Windows, you will need to add the following to the gem file:
+
+```
+gem 'tzinfo'
+gem 'tzinfo-data'
+```
+
+Then run `gem install`.
+
 
 # Steps for forking
 
