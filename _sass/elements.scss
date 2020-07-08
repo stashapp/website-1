@@ -9,6 +9,8 @@ html, body {
 
 body {
 	font-family: "San Francisco", "Helvetica Neue", "Helvetica", "Arial";
+	background-color: $body-bg;
+	color: $text-color;
 }
 
 a {
@@ -20,10 +22,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-img {
-	width: 100%;
-}
-
 h1 strong, h2 strong {
 	font-weight: 700;
 }
@@ -32,6 +30,13 @@ h1 {
 	font-weight: 300;
 	font-size: 2.3em;
 	margin: 0;
+
+	&.title {
+		height: 120px;
+		font-size: 8em;
+		vertical-align: middle;
+		line-height: 120px;
+	}
 }
 
 h2 {
@@ -45,10 +50,18 @@ h3 {
 }
 
 
-p, address {
-	font-size: 1.38em;
-	color: #666;
+p, address, ul {
+	// font-size: 1.38em;
 	margin-bottom: 20px;
 	font-weight: 300;
 	line-height: 1.4em;
+}
+
+.icon {
+	height: 100px;
+	
+	svg {
+		color: $text-color;
+		max-height: 100%;
+	}
 }
