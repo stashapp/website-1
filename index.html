@@ -15,7 +15,25 @@ description: An organizer for your porn
 
 	var currentImage = 0;
 	var useAlt = false;
-	doSlideShow();
+
+	function loadImages() {
+		function loadImage(index) {
+			var img = new Image();
+			img.src = images[index];
+
+			img.onload = function () {
+				if (index + 1 < images.length) {
+					loadImage(index + 1);
+				} else {
+					doSlideShow();
+				}
+			}
+		}
+
+		loadImage(0);
+	}
+
+	loadImages();
 
 	function doSlideShow() {
 		currentImage = (currentImage + 1) % images.length;
@@ -49,7 +67,7 @@ description: An organizer for your porn
 </script>
 
 <section class="hero">
-	<div id="hero-image">
+	<div id="hero-image" style="background-image: '../images/scenes.png';">
 	</div>
 	<div id="hero-image-alt">
 	</div>
