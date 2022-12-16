@@ -1,7 +1,7 @@
-# - name: About
-#   link: /about/
-#   new_window: false
-#   highlight: false
+ - name: Documentation
+   link: https://docs.stashapp.cc
+   new_window: true
+   highlight: true
 # - name: Contact
 #   link: /contact/
 #   new_window: false
