@@ -1,12 +1,12 @@
  - name: Documentation
    link: https://docs.stashapp.cc
    new_window: true
-   highlight: true
-# - name: Contact
-#   link: /contact/
-#   new_window: false
-#   highlight: false
-# - name: Documentation
+   highlight: false
+ - name: Volunteer for Stash
+   link: /volunteer/
+   new_window: false
+   highlight: false
+ #- name: Documentation
 #   link: /docs/
 #   new_window: false
 #   highlight: true
