@@ -17,7 +17,8 @@ Our goal is to create a team of individuals driven by a shared passion for the p
 It's important to mention that we're looking to recruit redundant roles to ensure project continuity and prepare for different availability and potential contributor burnout.
 
 ### Available Roles
-- [Linguistics Community Lead (2 positions available)]({{ site.url }}/community-liaison)
+- [Linguistics Community Lead (2 positions available)]({{ site.url }}/linguistics-community-lead)
 - [Documentation Community Lead (2 positions available)]({{ site.url }}/documentation-community-lead)
-<!-- - [Project Manager (2 position available)]({{ site.url }}/project-manager) -->
-- [Community Liaison (2 position available)]({{ site.url }}/linguistics-community-lead)
+- [Project Manager (2 position available)]({{ site.url }}/project-manager)
+- [Community Liaison (2 position available)]({{ site.url }}/community-liaison)
+- [UI/UX Specialist (2 positions available)]({{ site.url }}/ui-ux-specialist)
