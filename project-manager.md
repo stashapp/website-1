@@ -8,7 +8,7 @@ We are seeking two motivated individuals to fill the role of Project Manager. Th
 
 Key responsibilities:
 
-- Ensuring that tasks outside bounties are managed and mapped in "timelines."
+- Ensuring that tasks outside bounties are managed and mapped in "timelines".
 - Keeping project scope and technical debt under control.
 - Managing expectations of the community and helping triage Pull Requests and community-submitted issues.
 - Writing in clear and concise English, avoiding idioms and colloquialisms to be as understandable as possible to individuals for whom English may be a second language.
