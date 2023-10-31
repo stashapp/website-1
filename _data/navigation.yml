@@ -1,4 +1,4 @@
- - name: Source Code
+ - name: "Source Code"
    link: https://github.com/stashapp/stash
    new_window: true
    highlight: false
